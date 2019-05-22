@@ -7,5 +7,5 @@ def oxford_comma(array)
 end
 
 def oxford_comma(array)
-  array.join ( "and" ) if == [-1]
+  prepend(" and ") array.join
 end
